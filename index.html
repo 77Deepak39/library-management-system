@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+        
+        <!-- Form to search for a book -->
+        <form id="searchForm">
+            <label for="searchInput">Search by Title:</label>
+            <input type="text" id="searchInput" name="searchInput" placeholder="Enter title...">
+            <button type="submit">Search</button>
+        </form>
+        
+        <!-- Display search results -->
+        <div id="searchResults">
+            <!-- Results will be inserted dynamically using JavaScript -->
+        </div>
+
+        <!-- Predefined list of books (dashboard) -->
+        <div id="dashboard">
+            <h2>Featured Books</h2>
+            <div class="book" id="bookList">
+                <!-- Predefined books will be inserted dynamically using JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
